@@ -3237,7 +3237,6 @@ getprotobyname
 getprotobynumber
 getpwnam
 getpwnam_r
-getpwent
 getpwuid
 getpwuid_r
 getresgid
@@ -3620,7 +3619,6 @@ setlogmask
 setns
 setpgid
 setpriority
-setpwent
 setregid
 setresgid
 setresuid
