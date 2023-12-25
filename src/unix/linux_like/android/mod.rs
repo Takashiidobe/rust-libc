@@ -3570,6 +3570,9 @@ safe_f! {
 }
 
 extern "C" {
+    pub fn setpwent();
+    pub fn endpwent();
+    pub fn getpwent() -> *mut passwd;
     pub fn setgrent();
     pub fn endgrent();
     pub fn getgrent() -> *mut ::group;
