@@ -16,19 +16,19 @@ unzip -q -d sdk/cmdline-tools commandlinetools-linux-${SDK}_latest.zip
 
 case "$1" in
   arm | armv7)
-    api=34
+    api=35
     image="system-images;android-${api};default;armeabi-v7a"
     ;;
   aarch64)
-    api=34
+    api=35
     image="system-images;android-${api};google_apis;arm64-v8a"
     ;;
   i686)
-    api=34
+    api=35
     image="system-images;android-${api};default;x86"
     ;;
   x86_64)
-    api=34
+    api=35
     image="system-images;android-${api};default;x86_64"
     ;;
   *)
